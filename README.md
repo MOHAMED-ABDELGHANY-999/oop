@@ -77,26 +77,57 @@ The system contains:
 
 ---
 
-### 🔵 Session 3 – Inheritance & Polymorphism
+### 🔵 Session 3 – Inheritance, Polymorphism & Interfaces
 
 #### 📌 What We Covered
 
 - Inheritance
 - Parent and Child Classes
-- `extends`
-- `super`
 - Method Overriding
 - Polymorphism
-- Runtime Polymorphism
+- Interfaces
+- Implementing Interfaces
+- Different implementations of the same behavior
 
-#### 📝 Requirements
+#### 🐾 Project – ZOO
+
+The session includes a simple Zoo example using different animal classes.
+
+The project contains:
+
+- `Animal`
+- `Bat`
+- `Bird`
+- `Dog`
+- `Dolphin`
+- `Fish`
+- `Flyable`
+- `Lion`
+- `Penguin`
+- `Swimmable`
+
+#### 💳 Project – Payment
+
+The session also includes different payment methods.
+
+The project contains:
+
+- `Payment`
+- `PayPal`
+- `Credit_Card`
+- `Cash_On_Delivery`
+- `Bank_Trasfer`
+- `Main`
+
+#### ⚙️ Requirements
 
 - Create parent and child classes.
-- Apply inheritance using `extends`.
-- Reuse fields and methods from the parent class.
+- Apply inheritance.
 - Override methods in child classes.
 - Demonstrate polymorphism.
-- Create objects from different classes.
+- Create and implement interfaces.
+- Apply different implementations for different classes.
+- Create objects from the different classes.
 
 ---
 
@@ -105,13 +136,13 @@ The system contains:
 #### 📌 What We Covered
 
 - UML Class Diagram
-- Classes and Objects
+- Classes
 - Fields (Attributes)
 - Methods (Operations)
 - Class Relationships
 - Association
 - Inheritance
-- Bank Account System Design
+- Bank System Design
 
 #### 🏦 Project – Bank System
 
@@ -171,6 +202,25 @@ OOP
 │
 ├── Session3
 │   └── src
+│       ├── ZOO
+│       │   ├── Animal.java
+│       │   ├── Bat.java
+│       │   ├── Bird.java
+│       │   ├── Dog.java
+│       │   ├── Dolphin.java
+│       │   ├── Fish.java
+│       │   ├── Flyable.java
+│       │   ├── Lion.java
+│       │   ├── Penguin.java
+│       │   ├── Swimmable.java
+│       │   └── Main.java
+│       │
+│       ├── Bank_Trasfer.java
+│       ├── Cash_On_Delivery.java
+│       ├── Credit_Card.java
+│       ├── PayPal.java
+│       ├── Payment.java
+│       └── Main.java
 │
 ├── Session4
 │   └── src
