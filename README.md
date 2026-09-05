@@ -77,6 +77,68 @@ The system contains:
 
 ---
 
+### 🔵 Session 3 – Inheritance & Polymorphism
+
+#### 📌 What We Covered
+
+- Inheritance
+- Parent and Child Classes
+- `extends`
+- `super`
+- Method Overriding
+- Polymorphism
+- Runtime Polymorphism
+
+#### 📝 Requirements
+
+- Create parent and child classes.
+- Apply inheritance using `extends`.
+- Reuse fields and methods from the parent class.
+- Override methods in child classes.
+- Demonstrate polymorphism.
+- Create objects from different classes.
+
+---
+
+### 🟣 Session 4 – Bank System UML
+
+#### 📌 What We Covered
+
+- UML Class Diagram
+- Classes and Objects
+- Fields (Attributes)
+- Methods (Operations)
+- Class Relationships
+- Association
+- Inheritance
+- Bank Account System Design
+
+#### 🏦 Project – Bank System
+
+The session includes a simple Bank System designed from a UML Class Diagram.
+
+The system contains:
+
+- `Bank`
+- `Teller`
+- `Customer`
+- `Account`
+- `Checking`
+- `Savings`
+- `Loan`
+- `Main`
+
+#### ⚙️ Requirements
+
+- Create Java classes based on the UML diagram.
+- Add the required fields to each class.
+- Add the required methods.
+- Apply inheritance between `Account`, `Checking`, and `Savings`.
+- Create objects from the different classes.
+- Implement the Bank System structure shown in the UML diagram.
+
+---
+
 ## 🎯 Course Goal
 
 The goal of this repository is to practice Java programming and gradually build a strong understanding of Object-Oriented Programming concepts through practical projects and assignments.
@@ -105,6 +167,20 @@ OOP
 │       ├── BankElkhal.java
 │       ├── SavingsAccount.java
 │       ├── CurrentAccount.java
+│       └── Main.java
+│
+├── Session3
+│   └── src
+│
+├── Session4
+│   └── src
+│       ├── Bank.java
+│       ├── Teller.java
+│       ├── Customer.java
+│       ├── Account.java
+│       ├── Checking.java
+│       ├── Savings.java
+│       ├── Loan.java
 │       └── Main.java
 │
 └── README.md
